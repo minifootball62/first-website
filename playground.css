@@ -1,0 +1,94 @@
+.beta{
+    color: antiquewhite;
+}
+
+
+.mate{
+    color: bisque;
+}
+
+
+
+.mati{
+     color: aquamarine;
+}
+
+
+
+
+
+.doti{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.diti{
+    color: aquamarine;
+    height: 50px;
+    width: 100%;
+}
+
+
+.footer{
+    display: flex;
+    justify-content:space-between ;
+    gap: 20px;
+    width: 93%;
+    padding: 50px;
+    background-color: blue;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.dude{
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+}
+
+
+
+.mini{
+    width: 100%;
+    height: 50vh;
+}
+
+
+.cardwrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    margin: 50px auto; 
+}
+
+
+
+.card{
+   background-color: black; 
+   color: aliceblue;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+
+
+.cardimg{
+    width: 100%;
+    height: 250px;
+}
+
+.html{
+    grid-template-columns: 20px;
+    border-color: antiquewhite;
+    border-radius: 10px;
+    column-rule-color: blue;
+}
+

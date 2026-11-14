@@ -1,0 +1,185 @@
+*{
+ margin: 0;
+ padding: 0;  
+ box-sizing: border-box;
+}
+ 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+
+.nini{
+   display: flex; 
+   justify-content: space-between;
+   gap: 50px;
+   list-style-type:none;
+}
+
+
+.nini a{
+  text-decoration: none;
+}
+
+
+.cardwrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+.card{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.cardimg{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.cardbutton{
+    background-color: brown;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    padding: 50px;
+    background-color:green;
+    color: aliceblue;
+}
+
+
+.bite{
+   width: 40%; 
+}
+
+
+.eman{
+   width:100%; 
+   height: 50vh;
+}
+
+
+
+.img-container{
+    background-color: black;
+    padding: 50px 0;
+}
+
+
+
+.dodo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 15px;
+}
+
+
+.cardimg{
+    width: 100%;
+}
+
+
+
+@media (max-width: 372px) {
+  .eman{
+    width: 100%;
+  }  
+}
+
+@media (max-width: 590px) {
+  .nini{
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 530px) {
+  .cardwrapper{
+    grid-template-columns: 1fr;
+  }  
+}
+
+
+
+@media (max-width: 300px) {
+  .cardwrapper{
+    grid-template-columns: 1fr;
+  }  
+}
+
+
+
+@media (max-width: 350px) {
+ .img-container{
+  display: flex;
+ } 
+  }
+
+
+  @media (max-width: 1000px ) {
+  .dodo  {
+    grid-template-columns:1fr 1fr 1fr;
+  }  
+  }
+
+
+  @media (max-width: 670px) {
+   .dodo{
+    grid-template-columns: 1fr 1fr;
+   } 
+  }
+
+  @media (max-width: 460px) {
+   .dodo{
+    grid-template-columns: 1fr;
+   } 
+  }
+
+
+  @media (max-width: 460px) {
+    .footer{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .bite{
+      width: 90%;
+      text-align: center;
+    }
+  }
+
+
+.footerlist{
+  list-style: none;
+}
+
+
+.footerlist a{
+  text-decoration: none;
+}

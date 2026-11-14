@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+
+
+.wati{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.wati a{
+    text-decoration: none;
+}
+
+
+
+
+.vigo{
+    width: 100%;
+    height: 50vh;
+}
+
+
+
+.cardwrapper{
+   display: grid; 
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+   width: 80%;
+   margin:50px  auto;
+}
+
+
+
+.card{
+   background-color: black; 
+   color: aliceblue;
+   border-radius: 10px;
+}
+
+
+
+.cardimg{
+    width: 100%;
+    height: 250px;
+}
+
+
+.cardbutton{
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+.pharagharph-container{
+    background-color: black;
+    padding: 50px 0;
+}
+
+
+
+.pharagharph{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+.pharagharph-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    margin: 50px  auto;
+}
+
+
+
+.footer{
+   display: flex; 
+   justify-content:space-between ;
+   align-items: center;
+   gap: 20px;
+   width: 100%;
+   padding: 50px;
+   background-color: seagreen;
+   color: white;
+}
+
+
+.bite{
+    width: 40%;
+}
+
+@media (max-width: 1000px) {
+ .logo{
+    background-color: red;
+ }   
+}
+
+@media (max-width: 800px)  {
+.logo{
+    background-color: purple;
+}
+}
+
+
+@media (max-width: 600px)  {
+.logo{
+    background-color: blue;
+}
+}
+
+
+
+@media (max-width: 1085px) {
+ .cardwrapper{
+    grid-template-columns: 1fr 1fr;
+ }   
+}
+
+
+@media (max-width: 760px) {
+ .cardwrapper{
+    grid-template-columns: 1fr;
+ }   
+}
+
+
+
+@media (max-width: 1130px) {
+ .pharagharph-wrapper{
+    grid-template-columns: 1fr 1fr;
+ }   
+}
+
+@media (max-width: 770px) {
+  .pharagharph-wrapper{
+    width: 90%;
+  }  
+}
+
+
+@media (max-width: 640px) {
+ .pharagharph-wrapper{
+    grid-template-columns: 1fr;
+ }   
+}
+
+
+
+@media (max-width: 630px) {
+ .footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ }  
+ .bite{
+    width: 90%;
+    text-align: center;
+ } 
+}
+
+
+@media ( max-width: 470px) {
+.wati{
+    display: none;
+}    
+}
+
+
+@media (max-width: 300px) {
+ .cardimg{
+    height: 20vh;
+ } 
+ .bite{
+    width: 100%;
+ }
+ .footer{
+    padding: 50px 10px;
+ }
+}
+
+.footerlist{
+    list-style: none;
+}
+
+.footerlist a{
+text-decoration: none;
+}
+
+
+.card{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 100px;
+    padding: 150px;
+}
+
+
+.dembele{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    width: 80%;
+    margin: 50px  auto;
+}
+
+
+.eman{
+    background-color: black;
+    column-rule-color: aliceblue;
+    border-radius: 10px;
+}
+
+
+.boy{
+    color: aliceblue;
+    padding-left: 1rem;
+}
+
+
+
+.stiff{
+    padding-left: 1rem !important;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
